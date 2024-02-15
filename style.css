@@ -1,0 +1,37 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.mdiv{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(https://cdn.pixabay.com/photo/2017/11/02/12/07/hourglass-2910948_1280.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.container{
+	color: orangered;
+	font-weight: bolder;
+	border: 3px solid orangered;
+	font-size: 70px;
+	box-shadow: 0px 0px 30px grey;
+	width: 290px;
+	padding: 30px;
+	border-radius: 25px;
+	height: 150px;
+}
+.time{
+	background: transparent;
+}
+.container:hover{
+color: royalblue;
+box-shadow: royalblue;
+}
