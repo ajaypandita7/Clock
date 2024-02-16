@@ -23,10 +23,10 @@
 	border: 3px solid orangered;
 	font-size: 70px;
 	box-shadow: 0px 0px 30px grey;
-	width: 310px;
+	width: 550px;
 	padding: 30px;
 	border-radius: 25px;
-	height: 150px;
+	height: 250px;
 }
 .tm{
 	background: transparent;
@@ -34,4 +34,9 @@
 .container:hover{
 color: royalblue;
 box-shadow: royalblue;
+}
+
+.unit{
+	font-size: 25px;
+	-webkit-text-stroke:2px royalblue;
 }
